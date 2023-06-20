@@ -1,0 +1,79 @@
+<html>
+   <head>
+        <meta charset = "utf-8">
+        <title>大男幫</title> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+                    #skinImage {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: center;
+          }
+        </style>
+
+   </head>
+
+   <body id="background_main" style="text-align: center; background-color: black ; color: white;">
+        <script src = "mainpage.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img id = "skinImage"  alt="Logo" style="width:50px; object-fit: fill;" class="rounded-pill">                
+              </a>
+
+                <div>
+                    <span>名字：</span>
+                    <span id="nameSpan">1</span>
+                </div>
+                <div>
+                    <span>職業：</span>
+                    <span id="careerSpan">1</span>
+                </div>
+                <div>
+                    <span>金錢：</span>
+                    <span id="moneySpan">1</span>
+                </div>
+                <div>
+                    <span>等級：</span>
+                    <span id="lvSpan">1</span>
+                </div>
+                <div>
+                    <span>EXP：</span>
+                    <span id="expSpan">1</span>
+                </div>
+
+                <div class="nav-item dropdown" style="margin-right: 15px;" >
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">選單</a>
+                    <ul class="dropdown-menu dropdown-menu-end" >
+                        <li><a class="dropdown-item " href="./mainpage.html">主頁</a></li>
+                        <li><a class="dropdown-item " href="./sign_in.php">登出</a></li>
+                        <li><a class="dropdown-item " href="#">遊戲說明</a></li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+          
+
+
+        <div style="position: absolute; top: 55% ;left: 50%;transform: translate(-50%, -50%); font-size: 18px;"> 
+          歡迎來到這個世界，以下是遊戲說明，幫助您更熟悉遊戲操作：<br><br>
+          此遊戲為文字RPG，所在位置、怪物名稱、攻擊效果、各類數值皆以文字呈現，<br>
+          遊戲中一個帳號只能開設一個角色，若要遊玩其他職業或重新開始請再次註冊。<br>
+          您需要在遊戲內戰鬥，累積經驗值，增強能力，並挑戰BOSS，<br>
+          遊戲地圖及劇情會在您突破BOSS關卡時解鎖。<br>
+          遊戲攻擊方式除了普通攻擊外還有技能系統，<br>
+          技能會在您達到特定等級時自動解鎖，<br>
+          每次戰鬥可攜帶三個技能，您可以依據怪物特性自由搭配。<br>
+          遊戲中死亡會降低您的經驗值進度，請格外注意。<br>
+          遊戲中的金錢可用來購買造型，若您覺得頭像太醜可以盡早更換。<br>
+          結束任何遊戲操作後務必存檔！系統不會幫您儲存！<br>
+          並且若沒有按照順序擊倒BOSS會錯失劇情！<br><br>
+          
+          遊戲介紹到此為止，接著的就留給您自由探索了.......
+        </div>
+   </body>
+</html>

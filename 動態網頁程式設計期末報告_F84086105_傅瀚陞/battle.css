@@ -1,0 +1,30 @@
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.battle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.character {
+    margin: 0 20px;
+    flex: 1;
+}
+
+.character-enemy {
+    order: 2;
+}
+
+.health {
+    background-color: green;
+    height: 100%;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
